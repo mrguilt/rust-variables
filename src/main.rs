@@ -1,3 +1,6 @@
+//Next section: Constants!
+const SECONDS_IN_YEAR: u32=60*60*24*365;
+
 fn main() {
     println!("Hello. Moving on to Chapter 3, Section 1: Variables and Mutability\n");   //Just checking: escape sequences ("\n") still work.
 
@@ -16,7 +19,10 @@ fn main() {
     println!("The value of y is: {y}");
     y = y+2; //Fail--this counts as a second assginment
     println!("The value of y is: {y}");
-    println!("So, variables, by default, are \"really\" constants.")
+    println!("So, variables, by default, are \"really\" constants.\n");
 
+    //Next section: Constants!
+    println!("Well, not really.");
+    println!("There are {SECONDS_IN_YEAR} seconds in a year.")
 
 }
